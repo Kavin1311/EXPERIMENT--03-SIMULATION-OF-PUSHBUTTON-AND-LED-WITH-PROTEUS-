@@ -73,25 +73,6 @@ We are now at the last part of step by step guide on how to simulate STM32 proje
 ## STM 32 CUBE PROGRAM :
 
 ```
-/* USER CODE BEGIN Header */
-/**
-  ******************************************************************************
-  * @file           : main.c
-  * @brief          : Main program body
-  ******************************************************************************
-  * @attention
-  *
-  * Copyright (c) 2024 STMicroelectronics.
-  * All rights reserved.
-  *
-  * This software is licensed under terms that can be found in the LICENSE file
-  * in the root directory of this software component.
-  * If no LICENSE file comes with this software, it is provided AS-IS.
-  *
-  ******************************************************************************
-  */
-/* USER CODE END Header */
-```
 #include "main.h"
 #include <stdbool.h>
 
@@ -288,12 +269,6 @@ void assert_failed(uint8_t *file, uint32_t line)
 {
 }
 #endif /* USE_FULL_ASSERT */
-
-  /* USER CODE BEGIN 2 */
-
-  /* USER CODE END 2 */
-
-
 ```
 
 ## Output screen shots of proteus  :
